@@ -14,11 +14,13 @@ copy the theme file to your tint2 config folder:
 
 ## Showcase
 
-###### Theme: sendiki-obtgen
+##### Theme: sendiki-obtgen
+###### Button Layout : `IMC`
 
 <img alt="sendiki-obtgen" width="70%" src="https://user-images.githubusercontent.com/9277632/36633428-29ae764a-19c8-11e8-9584-4bf959703423.png" >
 
-###### Theme: teringatmantan
+##### Theme: teringatmantan
+###### Button Layout : `DSLIMC`
 
 <img alt="teringatmantan" width="70%" src="https://user-images.githubusercontent.com/9277632/37252640-11026198-2557-11e8-9d8a-7fd1f702876a.png">
 
