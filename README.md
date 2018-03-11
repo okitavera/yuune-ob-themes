@@ -17,6 +17,9 @@ copy the theme file to your tint2 config folder:
 ###### Theme: sendiki-obtgen
 ![sendiki-obtgen](https://user-images.githubusercontent.com/9277632/36633428-29ae764a-19c8-11e8-9584-4bf959703423.png)
 
+###### Theme: teringatmantan
+![teringatmantan](https://user-images.githubusercontent.com/9277632/37252640-11026198-2557-11e8-9d8a-7fd1f702876a.png)
+
 ## License
 
 The code is available under the [MIT license](LICENSE).
