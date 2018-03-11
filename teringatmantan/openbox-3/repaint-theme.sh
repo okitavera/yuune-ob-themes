@@ -1,4 +1,19 @@
 RDIR=$(dirname $0)
+
+xrgc() {
+case $1 in 
+    fg)
+        xrdb -query | egrep -m1 "^\*\.?foreground:" | awk '{print $NF}' 
+    ;;
+    bg)
+        xrdb -query | egrep -m1 "^\*\.?background:" | awk '{print $NF}' 
+    ;;
+    *) 
+        xrdb -query | egrep -m1 "^\*\.?color$1:" | awk '{print $NF}'
+    ;;
+esac
+}
+
 cp $RDIR/themerc $RDIR/themerc.bak
 cat > $RDIR/themerc <<EOF
 # Theme name : teringatmantan 
