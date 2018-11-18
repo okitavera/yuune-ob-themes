@@ -10,7 +10,7 @@ if [[ -z $2 ]]; then
     exit 1
 fi
 
-pushd $(dirname $(readlink -f $0))/
+pushd $(dirname $(readlink -f $0))/../openbox-3/
 
 cp themerc themerc.bak
 cat > themerc <<EOF

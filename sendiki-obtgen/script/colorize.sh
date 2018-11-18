@@ -24,7 +24,7 @@ case $1 in
 esac
 }
 
-pushd $(dirname $(readlink -f $0))/
+pushd $(dirname $(readlink -f $0))/../openbox-3/
 cp themerc themerc.bak
 cat > themerc <<EOF
 # Theme name : sendiki-obtgen 
